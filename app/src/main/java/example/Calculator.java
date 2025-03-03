@@ -8,16 +8,19 @@ public class Calculator {
 
     public int minus(int a, int b) {
         // TODO: Implement this method
-        return 10;
+        int result = a - b;
+        return result;
     }
 
     public int multiply(int a, int b) {
-        // TODO: Implement this method
-        return 10;
+        int product;
+        product = a*b;
+        return product;
     }
 
     public double divide(int a, int b) {
-        // TODO: Implement this method
-        return 5;
+        int factor;
+        factor = a/b;
+        return factor;
     }
 }
